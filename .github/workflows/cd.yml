@@ -1,4 +1,4 @@
-name: cd.yml
+name: CD
 
 on:
   push:
