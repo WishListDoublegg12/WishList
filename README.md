@@ -4,7 +4,7 @@ Webbaseret databaseapplikation, hvor man kan oprette ønskelister og tilføje ø
 
 ## Link til den kørende applikation
 
-> **Udfyldes, når Azure-deploy er på plads:** `https://<jeres-app>.azurewebsites.net`
+> **wish-dfccgga2eddbdpar.denmarkeast-01.azurewebsites.net`
 
 ## Funktioner
 
