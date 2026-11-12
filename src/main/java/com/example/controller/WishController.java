@@ -81,7 +81,6 @@ public class WishController {
         wishService.deleteWish(id);
         return "redirect:/wishlists/" + wish.getWishlistId();
     }
-
         private void fillEditModel(Model model, int wishId, int wishlistId,
         String name, String price, String link) {
         model.addAttribute("wishId", wishId);

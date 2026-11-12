@@ -50,7 +50,7 @@ public class WishlistController {
     public String showCreateForm() {
         return "create-wishlist";
     }
-
+    // UPDATE (omdøb)
     @PostMapping("/wishlists")
     public String createWishlist(@RequestParam("name") String name, Model model) {
         try {
@@ -63,7 +63,7 @@ public class WishlistController {
         }
     }
 
-    // UPDATE (omdøb)
+
     @GetMapping("/wishlists/{id}/edit")
     public String showEditForm(@PathVariable("id") int id, Model model) {
         Wishlist wishlist = wishlistService.getWishlistById(id);
